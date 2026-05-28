@@ -3,9 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
   <title>Lindsay Smith - Home</title>
   <meta name="description" content="Lindsay Smith is a Princeton Physics PhD student studying the science of AI, AI for scientific discovery, mechanistic interpretability, and in-context learning.">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    :root {
+      color-scheme: light dark;
+      background: Canvas;
+    }
+
+    html,
+    body {
+      background: Canvas !important;
+      color: CanvasText !important;
+    }
+
+    body * {
+      color: CanvasText !important;
+      -webkit-text-fill-color: CanvasText !important;
+    }
+
+    a {
+      color: LinkText !important;
+      -webkit-text-fill-color: LinkText !important;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html,
+      body,
+      header,
+      main,
+      section,
+      article,
+      div,
+      nav,
+      figure,
+      footer {
+        background: Canvas !important;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="hero" id="top">

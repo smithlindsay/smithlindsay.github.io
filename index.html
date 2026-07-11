@@ -3,237 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light dark">
-  <meta name="supported-color-schemes" content="light dark">
+  <meta name="color-scheme" content="dark">
   <title>Lindsay Smith - Home</title>
   <meta name="description" content="Lindsay Smith is a Princeton Physics PhD student studying the science of AI, AI for scientific discovery, mechanistic interpretability, and in-context learning.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%8C%BF</text></svg>">
   <link rel="stylesheet" href="styles.css">
-  <style>
-    :root {
-      color-scheme: light dark;
-      background: Canvas;
-    }
-
-    html,
-    body {
-      background: Canvas !important;
-      color: CanvasText !important;
-    }
-
-    body * {
-      color: CanvasText !important;
-      -webkit-text-fill-color: CanvasText !important;
-    }
-
-    a {
-      color: LinkText !important;
-      -webkit-text-fill-color: LinkText !important;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      html,
-      body,
-      header,
-      main,
-      section,
-      article,
-      div,
-      nav,
-      figure,
-      footer {
-        background: Canvas !important;
-      }
-    }
-  </style>
 </head>
 <body>
-  <header class="hero" id="top">
-    <div class="top-nav">
-      <!-- <a class="logo" href="#top">Lindsay Smith</a> -->
-      <nav class="top-nav__links" aria-label="Primary">
-        <a href="#papers">Papers</a>
-        <a href="#presentations">Presentations</a>
-        <a href="cv_lindsaysmith_may26.pdf">CV</a>
-        <a href="#background">Background</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-
-    <div class="hero__content container">
-      <div class="hero__text">
-        <!-- <p class="eyebrow">Science of ML/AI · Princeton University</p> -->
-        <h1>Lindsay Smith</h1>
-        <p class="hero__lead">I am a 5th-year (and final year!) physics PhD candidate and NSF GRFP fellow at Princeton University, advised by William Bialek and David Schwab. My research focuses on studying the <b>science of AI</b>, drawing on my background in physics and complex systems.</p>
-        <p class="hero__meta">Current ML/AI research areas: mechanistic interpretability, in-context learning, LLM multi-agent interactions, AI safety.</p>
-        <p>I am an intern at <a href="https://polymathic-ai.org/" target="_blank" rel="noopener">Polymathic AI</a> during Spring and Summer 2026, working on AI for scientific discovery.</p>
-
-        <p><small><i>Redoing my website's CSS - enjoy the retro HTML for now! :)</i></small></p>
-
-        <div class="cta-group">
-          <a class="btn btn--ghost" href="#papers">Browse current work</a>
-          <a class="btn btn--accent" href="cv_lindsaysmith_may26.pdf" target="_blank" rel="noopener">CV</a>
-          <a class="btn btn--ghost" href="mailto:lindsay.smith@princeton.edu">Email me</a>
-        </div>
-        <div class="social-links" aria-label="Social links">
-          <a href="https://scholar.google.com/citations?user=esfG40YAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-          <!-- <a class="social-link" href="https://scholar.google.com/citations?user=esfG40YAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Scholar">
-          </a> -->
-          <a href="https://www.twitter.com/LindsayMSmith3" target="_blank" rel="noopener">Twitter/X</a>
-          <!-- <a class="social-link" href="https://www.twitter.com/LindsayMSmith3" target="_blank" rel="noopener" aria-label="X (Twitter)">
-            
-          </a> -->
-          <a href="https://github.com/smithlindsay" target="_blank" rel="noopener">GitHub</a>
-          <!-- <a class="social-link" href="https://github.com/smithlindsay" target="_blank" rel="noopener" aria-label="GitHub">
-            
-          </a>
-          
-          <a class="social-link" href="https://www.linkedin.com/in/lindsaymsmith3" target="_blank" rel="noopener" aria-label="LinkedIn">
-            
-          </a> -->
-          <a href="https://www.linkedin.com/in/lindsaymsmith3" target="_blank" rel="noopener">LinkedIn</a>
-        </div>
-      </div>
-      <div class="hero__media">
-        <figure>
-          <img src="IMG_0659.jpeg" alt="Portrait of Lindsay Smith" loading="lazy" width="200" height="200">
-        </figure>
-      </div>
-    </div>
-    
-  </header>
-
-  <main>
-    <section id="papers" class="section">
-      <div class="container panel">
-        <h2>Papers</h2>
-        <p>* indicates equal contribution.</p>
-
-        <div class="card-grid">
-          <article class="card">
-            <h3>8. <a href="review, https://arxiv.org/abs/2605.26087" target="_blank" rel="noopener" class="paper__title">DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking</a></h3>
-            <p>Matt L. Wiemann*, <b>Lindsay M. Smith*</b>, Peter Melchior, Siddharth Mishra-Sharma, Andrew Gordon Wilson, Pavel Izmailov, Carolina Cuesta-Lázaro (2026)</p>
-            <p class="paper__status"><i>Under review</i></p>
-            <a class="paper__link" href="https://sampsonml.github.io/DiscoverPhysicsLeaderboard/" target="_blank" rel="noopener">Leaderboard/project page</a>
-          </article>
-          <br>
-          <article class="card">
-            <h3>7. <a href="https://openreview.net/forum?id=v0XkjgeD6U" target="_blank" rel="noopener" class="paper__title">Chain-of-Thought Injection as an Inference-Time Safety Intervention</a></h3>
-            <p><b>LMS*</b>, Ananya Malik*, Edward James Young, Puria Radmard, Cameron Tice, Hannes Whittingham (2026)</p>
-            <p class="paper__status"><i>ICLR 2026 Workshop on Logical Reasoning of LLMs</i></p>
-          </article>
-          <br>
-          <article class="card">
-            <h3>6. <a href="https://arxiv.org/abs/2512.249692" target="_blank" rel="noopener" class="paper__title">Large language models and the entropy of English</a></h3>
-            <p>Colin Scheibner*, <b>LMS*</b>, William Bialek (2025)</p>
-            <p class="paper__status"><i>Under review</i></p>
-          </article>
-          <br>
-          <article class="card">
-            <h3>5. <a href="https://arxiv.org/abs/2509.07282" target="_blank" rel="noopener" class="paper__title">ALICE: An Interpretable Neural Architecture for Generalization in Substitution Ciphers</a></h3>
-            <p>Jeff Shen* and <b>LMS*</b> (2025)</p>
-            <p class="paper__status"><i>Preprint</i></p>
-            <a class="paper__link" href="https://jshen.net/alice" target="_blank" rel="noopener">Project page + demo</a>
-          </article>
-          <br>
-          <article class="card">
-            <h3>4. <a href="https://arxiv.org/abs/2506.05574" target="_blank" rel="noopener" class="paper__title">When can in-context learning generalize out of task distribution?</a></h3>
-            <p>Chase Goddard, <b>LMS</b>, Vudtiwat Ngampruetikorn*, David J. Schwab* (2025)</p>
-            <p class="paper__status"><i>ICML 2025</i></p>
-          </article>
-          <br>
-          <article class="card">
-            <h3>3. <a href="https://openreview.net/forum?id=vWSu8nEURM" target="_blank" rel="noopener" class="paper__title">Model Recycling: Model component reuse to promote in-context learning</a></h3>
-            <p><b>LMS</b>, Chase Goddard, Vudtiwat Ngampruetikorn*, David J. Schwab* (2024)</p>
-            <p class="paper__status"><i>NeurIPS 2024 SciForDL Workshop</i></p>
-          </article>
-          <br>
-          <article class="card">
-            <h3>2. <a href="https://openreview.net/forum?id=D1ui5QwHqF" target="_blank" rel="noopener" class="paper__title">Specialization-generalization transition in exemplar-based in-context learning</a></h3>
-            <p>Chase Goddard, <b>LMS</b>, Vudtiwat Ngampruetikorn*, David J. Schwab* (2024)</p>
-            <p class="paper__status"><i>NeurIPS 2024 SciForDL Workshop</i></p>
-          </article>
-          <br>
-          <article class="card">
-            <h3>1. <a href="https://doi.org/10.1063/5.0075572" target="_blank" rel="noopener" class="paper__title">Learning continuous chaotic attractors with a reservoir computer</a></h3>
-            <p><b>LMS</b>, Jason Z. Kim, Zhixin Lu, Dani S. Bassett (2022)</p>
-            <p class="paper__status"><i>Chaos</i> journal · Editor's Pick</p>
-            <a class="paper__link" href="https://doi.org/10.1063/10.0009079" target="_blank" rel="noopener">Scilight press summary</a>
-          </article>
-        </div>
-      </div>
-    </section>
-    <br>
-    <br>
-    <section id="presentations" class="section section--alt">
-      <div class="container panel">
-        <h2>Recent Presentations</h2>
-        <div class="card-grid">
-        <article class="card">
-            <h3>American Physical Society (APS) Global Summit 2026</h3>
-            <p>Talk: "Universality of LLM mechanisms across scale and diversity"</p>
-            <a href="https://summit.aps.org/smt/2026/events/MAR-M63/3" target="_blank" rel="noopener" class="paper__link">Conference abstract</a>
-          </article>
-          <article class="card">
-            <h3>Meta 2025 PhD Forum</h3>
-            <p>Poster: “ALICE: An Interpretable Neural Architecture for Generalization in Substitution Ciphers”</p>
-            <a href="static/metaforumposter.pdf" target="_blank" rel="noopener" class="paper__link">View poster</a>
-          </article>
-          <article class="card">
-            <h3>APS Global Summit 2025</h3>
-            <p><i><b>Topical Group on Statistical and Nonlinear Physics (GSNP) Student Speaker Award Finalist</b></i></p>
-            <p>Talk: "Multi-Agent Debate: Analyzing Consensus in Networks of LLM Agents"</p>
-            <a href="https://schedule.aps.org/smt/2025/events/MAR-C70/2" target="_blank" rel="noopener" class="paper__link">Conference abstract</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- <section id="cv" class="section">
-      <div class="container panel">
-        <div class="cta-group">
-          <a class="btn btn--accent" href="static/cv_lindsaysmith_dec25.pdf" target="_blank" rel="noopener">Link to CV</a>
-        </div>
-      </div>
-    </section> -->
-    <br>
-    <br>
-    <section id="background" class="section">
+  <div class="bento">
+    <section id="top" class="block block--dark">
       <div class="container">
-        <h2>Background</h2>
+        <div class="top-nav">
+          <a class="logo" href="#top">Lindsay Smith</a>
+          <nav class="top-nav__links" aria-label="Primary">
+            <a href="#papers">[papers]</a>
+            <a href="#presentations">[presentations]</a>
+            <a href="cv_lindsaysmith_may26.pdf">[cv]</a>
+            <a href="#background">[background]</a>
+            <a href="#contact">[contact]</a>
+          </nav>
+        </div>
+
+        <div class="hero__content">
+          <div class="hero__text">
+            <h1>Lindsay Smith</h1>
+            <p class="hero__prompt">&gt; physics phd candidate, princeton university</p>
+            <p class="hero__prompt">&gt; nsf grfp fellow</p>
+            <p class="hero__lead">I am a 5th-year physics PhD candidate and NSF GRFP fellow at Princeton University, advised by William Bialek and David Schwab. My research focuses on studying the <b>science of AI</b>, drawing on my background in physics and complex systems.</p>
+            <p class="hero__meta">Current ML/AI research areas: mechanistic interpretability, in-context learning, LLM multi-agent interactions, AI safety.</p>
+            <p>I am an intern at <a href="https://polymathic-ai.org/" target="_blank" rel="noopener">Polymathic AI</a> during Spring and Summer 2026, working on AI for scientific discovery.</p>
+
+            <div class="cta-group">
+              <a class="btn" href="#papers">Browse current work</a>
+              <a class="btn btn--accent" href="cv_lindsaysmith_may26.pdf" target="_blank" rel="noopener">CV</a>
+              <a class="btn" href="mailto:lindsay.smith@princeton.edu">Email me</a>
+            </div>
+            <div class="social-links" aria-label="Social links">
+              <a class="social-link" href="https://scholar.google.com/citations?user=esfG40YAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Scholar">
+                <svg class="social-icon social-icon--fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true">
+                  <path d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/>
+                </svg>
+              </a>
+              <a class="social-link" href="https://www.twitter.com/LindsayMSmith3" target="_blank" rel="noopener" aria-label="X (Twitter)">
+                <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="m21.3 21.1-11.4-18.2h-7.2l11.4 18.2zm-18.6 0 7.2-6.6m4.2-5 7.2-6.6"/></svg>
+              </a>
+              <a class="social-link" href="https://github.com/smithlindsay" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a class="social-link" href="https://www.linkedin.com/in/lindsaymsmith3" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="hero__media">
+            <figure>
+              <img src="IMG_0659.jpeg" alt="Portrait of Lindsay Smith" loading="lazy" width="200" height="200">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="papers" class="block block--mint">
+      <div class="container">
+        <p class="block__label">PAPERS/</p>
+        <p class="note">* indicates equal contribution.</p>
+
+        <div class="entry-list">
+          <article class="entry">
+            <p class="entry__title"><span class="entry__index">[8]</span><a href="https://arxiv.org/abs/2605.26087" target="_blank" rel="noopener">DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking</a></p>
+            <p class="entry__meta">Matt L. Wiemann*, <b>Lindsay M. Smith*</b>, Peter Melchior, Siddharth Mishra-Sharma, Andrew Gordon Wilson, Pavel Izmailov, Carolina Cuesta-Lázaro (2026)</p>
+            <p class="entry__status">Under review</p>
+            <a class="entry__link" href="https://sampsonml.github.io/DiscoverPhysicsLeaderboard/" target="_blank" rel="noopener">Leaderboard/project page</a>
+          </article>
+          <article class="entry">
+            <p class="entry__title"><span class="entry__index">[7]</span><a href="https://openreview.net/forum?id=v0XkjgeD6U" target="_blank" rel="noopener">Chain-of-Thought Injection as an Inference-Time Safety Intervention</a></p>
+            <p class="entry__meta"><b>LMS*</b>, Ananya Malik*, Edward James Young, Puria Radmard, Cameron Tice, Hannes Whittingham (2026)</p>
+            <p class="entry__status">ICLR 2026 Workshop on Logical Reasoning of LLMs</p>
+          </article>
+          <article class="entry">
+            <p class="entry__title"><span class="entry__index">[6]</span><a href="https://arxiv.org/abs/2512.249692" target="_blank" rel="noopener">Large language models and the entropy of English</a></p>
+            <p class="entry__meta">Colin Scheibner*, <b>LMS*</b>, William Bialek (2025)</p>
+            <p class="entry__status">Under review</p>
+          </article>
+          <article class="entry">
+            <p class="entry__title"><span class="entry__index">[5]</span><a href="https://arxiv.org/abs/2509.07282" target="_blank" rel="noopener">ALICE: An Interpretable Neural Architecture for Generalization in Substitution Ciphers</a></p>
+            <p class="entry__meta">Jeff Shen* and <b>LMS*</b> (2025)</p>
+            <p class="entry__status">Preprint</p>
+            <a class="entry__link" href="https://jshen.net/alice" target="_blank" rel="noopener">Project page + demo</a>
+          </article>
+          <article class="entry">
+            <p class="entry__title"><span class="entry__index">[4]</span><a href="https://arxiv.org/abs/2506.05574" target="_blank" rel="noopener">When can in-context learning generalize out of task distribution?</a></p>
+            <p class="entry__meta">Chase Goddard, <b>LMS</b>, Vudtiwat Ngampruetikorn*, David J. Schwab* (2025)</p>
+            <p class="entry__status">ICML 2025</p>
+          </article>
+          <article class="entry">
+            <p class="entry__title"><span class="entry__index">[3]</span><a href="https://openreview.net/forum?id=vWSu8nEURM" target="_blank" rel="noopener">Model Recycling: Model component reuse to promote in-context learning</a></p>
+            <p class="entry__meta"><b>LMS</b>, Chase Goddard, Vudtiwat Ngampruetikorn*, David J. Schwab* (2024)</p>
+            <p class="entry__status">NeurIPS 2024 SciForDL Workshop</p>
+          </article>
+          <article class="entry">
+            <p class="entry__title"><span class="entry__index">[2]</span><a href="https://openreview.net/forum?id=D1ui5QwHqF" target="_blank" rel="noopener">Specialization-generalization transition in exemplar-based in-context learning</a></p>
+            <p class="entry__meta">Chase Goddard, <b>LMS</b>, Vudtiwat Ngampruetikorn*, David J. Schwab* (2024)</p>
+            <p class="entry__status">NeurIPS 2024 SciForDL Workshop</p>
+          </article>
+          <article class="entry">
+            <p class="entry__title"><span class="entry__index">[1]</span><a href="https://doi.org/10.1063/5.0075572" target="_blank" rel="noopener">Learning continuous chaotic attractors with a reservoir computer</a></p>
+            <p class="entry__meta"><b>LMS</b>, Jason Z. Kim, Zhixin Lu, Dani S. Bassett (2022)</p>
+            <p class="entry__status"><i>Chaos</i> journal · Editor's Pick</p>
+            <a class="entry__link" href="https://doi.org/10.1063/10.0009079" target="_blank" rel="noopener">Scilight press summary</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="presentations" class="block block--surface">
+      <div class="container">
+        <p class="block__label">PRESENTATIONS/</p>
+        <div class="entry-list">
+          <article class="entry">
+            <p class="entry__title">American Physical Society (APS) Global Summit 2026</p>
+            <p class="entry__meta">Talk: "Universality of LLM mechanisms across scale and diversity"</p>
+            <a class="entry__link" href="https://summit.aps.org/smt/2026/events/MAR-M63/3" target="_blank" rel="noopener">Conference abstract</a>
+          </article>
+          <article class="entry">
+            <p class="entry__title">Meta 2025 PhD Forum</p>
+            <p class="entry__meta">Poster: "ALICE: An Interpretable Neural Architecture for Generalization in Substitution Ciphers"</p>
+            <a class="entry__link" href="metaforumposter.pdf" target="_blank" rel="noopener">View poster</a>
+          </article>
+          <article class="entry">
+            <p class="entry__title">APS Global Summit 2025</p>
+            <p class="entry__status">Topical Group on Statistical and Nonlinear Physics (GSNP) Student Speaker Award Finalist</p>
+            <p class="entry__meta">Talk: "Multi-Agent Debate: Analyzing Consensus in Networks of LLM Agents"</p>
+            <a class="entry__link" href="https://schedule.aps.org/smt/2025/events/MAR-C70/2" target="_blank" rel="noopener">Conference abstract</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="background" class="block block--dark">
+      <div class="container">
+        <p class="block__label">BACKGROUND/</p>
         <p>Previously, I was an undergraduate at the University of Pennsylvania where I majored in physics (with honors), minored in mathematics and French and Francophone studies, and graduated cum laude. My undergrad research advisor was Dani Bassett, and I researched human white matter brain networks, the human perception of the stars in the night sky, and abstraction in reservoir computers (a type of RNN).</p>
         <p>Before undergrad, I worked on a project at WSU designing a flux spectrometer for the <a href="https://lbnf-dune.fnal.gov/" target="_blank" rel="noopener">Deep Underground Neutrino Experiment (DUNE)</a> at Fermilab, advised by Holger Meyer.</p>
       </div>
     </section>
 
-    <!-- <section id="contact" class="section section--alt">
+    <section id="contact" class="block block--cyan">
       <div class="container contact">
-        <div>
-          <h2>Contact</h2>
-          <p>Email: <a href="mailto:lindsay.smith@princeton.edu">lindsay.smith@princeton.edu</a>.</p>
-        </div>
-        <div class="social-links" aria-label="Social links">
-          <a class="social-link" href="https://scholar.google.com/citations?user=esfG40YAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Scholar">
-            <svg class="social-icon social-icon--fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-hidden="true">
-              
-              <path d="M390.9 298.5c0 0 0 .1 .1 .1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64h0c1.7-3.6 3.6-7.2 5.6-10.7c4.4-7.6 9.4-14.7 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7 256 0 512 202.7l-94.7 77.1z"/>
-            </svg>
-          </a>
-          <a class="social-link" href="https://www.twitter.com/LindsayMSmith3" target="_blank" rel="noopener" aria-label="X (Twitter)">
-            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="m21.3 21.1-11.4-18.2h-7.2l11.4 18.2zm-18.6 0 7.2-6.6m4.2-5 7.2-6.6"/></svg>
-          </a>
-          <a class="social-link" href="https://github.com/smithlindsay" target="_blank" rel="noopener" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          </a>
-          <a class="social-link" href="https://www.linkedin.com/in/lindsaymsmith3" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-          </a>
-        </div>
+        <p class="block__label">CONTACT/</p>
+        <p>Email: <a href="mailto:lindsay.smith@princeton.edu">lindsay.smith@princeton.edu</a></p>
       </div>
-    </section> -->
-  </main>
-
-  <!-- <footer class="footer">
-    <p>&copy; 2025 Lindsay Smith</p>
-  </footer> -->
+    </section>
+  </div>
 </body>
 </html>
